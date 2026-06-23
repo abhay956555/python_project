@@ -32,3 +32,5 @@ result = df.groupby("batting_team").agg(
     total_wickets=("total_runs", "sum"),
 )
 print(result)
+
+result.to_csv("team_summary.csv")
