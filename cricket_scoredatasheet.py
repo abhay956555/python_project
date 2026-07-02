@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns 
 import matplotlib.pyplot as plt
 
-url = "https://github.com/abhay956555/python_project/blob/17ea389551868dfae81479294d2063479a653d28/cricket_score.csv"
+url = "https://raw.githubusercontent.com/abhay956555/python_project/main/cricket_score.csv"
 
 df = pd.read_csv(url)
 
