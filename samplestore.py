@@ -1,6 +1,7 @@
 import pandas as pd
+url = "https://raw.githubusercontent.com/abhay956555/python_project/main/SampleSuperstore.csv"
 
-df = pd.read_csv("SampleSuperstore.csv")
+df = pd.read_csv(url)
 print(df.columns)
 print(df.head())
 
