@@ -1,9 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_excel("BlinkIT Grocery Data.xlsx")
+url = "https://raw.githubusercontent.com/abhay956555/python_project/0492ebfc2bec6e0abbeec1d8583450c4ff0a3396/BlinkIT%20Grocery%20Data.xlsx"
 
-df.head()
+df = pd.read_excel(url)
+print(df.head())
 
 total_sales = df["Sales"].sum()
 print("Total Sales:", total_sales)
