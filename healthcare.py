@@ -1,8 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-url="https://raw.githubusercontent.com/abhay956555/python_project/refs/heads/main/healthcare_dataset.csv"
-df = pd.read_csv(url)
+
+df = pd.read_csv("healthcare_dataset.csv")
 
 print(df.head())
 
